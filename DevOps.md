@@ -2,9 +2,9 @@
 Install LINUX- About 60GB needed
 
 Virtues of a programmer
-1. Laziness
-2. Impatience
-3. Hubris
+1. Laziness- The quality that makes you go to great effort to reduce overall energy expenditure. It makes you write labor-saving programs that other people will find useful and document what you wrote so you don't have to answer so many questions about it.
+2. Impatience- The anger you feel when the computer is being lazy. This makes you write programs that don't just react to your needs, but actually anticipate them. Or at least pretend to.
+3. Hubris- The quality that makes you write (and maintain) programs that other people won't want to say bad things about.
 
 *Learn about the Secure Shell (ssh)
 PAT -For a service and service .For example, Jetkins and Github
@@ -29,4 +29,86 @@ Command to write when looking for a specific thing in history- history | grep "d
 GitHub/GitLab- GitHub and GitLab are both web-based platforms used for version control and collaborative software development using Git. 
 
 Scrum happens in sprint while Kanban no sprints. Scrum is most efficient is Kanban since it is doen continuously... 
-Timeframes is to know when the sprints should happen
+Timeframes is to know when the sprints should happen. Research about Odoo.
+Explore more on GitLab
+Look at issues in Gitlab
+
+In LINUX what does ps -aux do...
+
+TLS and SSL - SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are security protocols used to encrypt data sent over the internet so that hackers or third parties cannot read it.
+
+Ingress
+
+Ingress = Incoming traffic
+
+It refers to data entering a network, server, or system.
+
+Examples
+
+A user opening your website
+
+Receiving an email
+
+Download requests coming into a server
+
+API requests from outside users
+
+Think of Ingress as “IN-coming.”
+
+Egress
+
+Egress = Outgoing traffic
+
+It refers to data leaving a network, server, or system.
+
+Examplese ingress traffic
+
+
+Sending an email
+
+Uploading files to the internet
+
+Streaming a video to users
+
+Server responses going out
+
+Think of Egress as “EXIT / OUT-going.”
+
+
+Docker Compose and Kubernetes
+- Docker Compose is a tool for defining and running multi-container Docker applications on a single host. It uses a YAML file (docker-compose.yml) to describe services, networks, and volumes.
+
+Example: 
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+
+
+- Kubernetes is a container orchestration platform designed for running and managing containerized applications at scale across multiple hosts (clusters).
+
+Example: apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:latest
+          ports:
+            - containerPort: 80
