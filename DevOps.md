@@ -112,3 +112,5 @@ spec:
           image: nginx:latest
           ports:
             - containerPort: 80
+
+Cloud server can be accessed using HTTP and HTTPS
