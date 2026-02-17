@@ -1,4 +1,4 @@
-(By Jospeh-njogu)
+(By Joseph-njogu)
 Install LINUX- About 60GB needed
 
 Virtues of a programmer
@@ -113,4 +113,6 @@ spec:
           ports:
             - containerPort: 80
 
-Cloud server can be accessed using HTTP and HTTPS
+Cloud server can be accessed using HTTP and HTTPS..
+
+Git Bisect
