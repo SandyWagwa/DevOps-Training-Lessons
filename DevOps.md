@@ -1,4 +1,4 @@
-(By Joseph-njogu)
+(By Joseph-njogu - 0799551696)
 Install LINUX- About 60GB needed
 
 Virtues of a programmer
@@ -115,4 +115,20 @@ spec:
 
 Cloud server can be accessed using HTTP and HTTPS..
 
-Git Bisect
+Git Bisect- Read on it
+
+MTTR (Mean Time to Recover)
+
+CI/CD (Continuous Integration/Continuous Deployment)
+How to achieve- Testing (Unit Testing)
+
+
+GitlabCI
+Code coverage =100% ->Write more unit tests
+Implement CI on Github (CircleCI)
+
+Commit message=Subject and the body
+
+Write more tests nad implement CI (Min of 4 commits and not to the main branch).. Have branches for collaboration
+
+
