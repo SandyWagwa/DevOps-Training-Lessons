@@ -132,3 +132,15 @@ Commit message=Subject and the body
 Write more tests nad implement CI (Min of 4 commits and not to the main branch).. Have branches for collaboration
 
 
+*Pipeline as code*
+Understand yml
+What is provisioning?
+In IT, provisioning usually means setting up hardware, software, or services so they are ready for use. Examples include:
+
+Server provisioning: Installing and configuring servers (physical or virtual) so they can run applications.
+
+Network provisioning: Setting up network devices and connections for proper communication.
+
+User provisioning: Creating user accounts and assigning access rights to systems or applications.
+
+
