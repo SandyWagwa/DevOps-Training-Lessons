@@ -143,4 +143,8 @@ Network provisioning: Setting up network devices and connections for proper comm
 
 User provisioning: Creating user accounts and assigning access rights to systems or applications.
 
+Do certification on AWS (Azure)
+Research on Celery
 
+
+Assignment Tuesday 24th 2026 --Understand yaml, toml, ini, tox
